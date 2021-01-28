@@ -1,0 +1,27 @@
+{
+  "name": "boardgame_discord_bot",
+  "version": "1.0.0",
+  "description": "boardgame information bot in discord",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuttepp/boardgame_discord_bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuttepp/boardgame_discord_bot/issues"
+  },
+  "homepage": "https://github.com/nuttepp/boardgame_discord_bot#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "tinyurl": "^1.1.7",
+    "xml-js": "^1.6.11"
+  }
+}
